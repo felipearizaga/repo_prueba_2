@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-name="WidgetDrawing.BtnCommit">
+        <button class="btn btn-primary" type="button" data-toggle="tooltip" data-placement="bottom" title="Press this button to save the shape">
+            Save
+        </button>
+    </t>
+    <t t-name="WidgetDrawing.BtnDelete">
+        <button class="btn btn-warning" type="button" data-toggle="tooltip" data-placement="bottom" title="Press this button to delete the selected shape">
+            Delete
+        </button>
+    </t>
+    <t t-name="WidgetDrawing.Map">
+        <div class="o_map_container">
+            <div class="o_map_view"></div>
+        </div>
+    </t>
+</templates>
